@@ -1,0 +1,140 @@
+.shop {
+  width: 100%;
+  height: 145vh;
+  .container {
+    width: 90%;
+    margin: 60px 150px;
+    display: flex;
+    .sec1 {
+      width: 22%;
+      height: 135vh;
+      border-right: 1px solid gainsboro;
+      font-family: sans-serif;
+      form{
+         input {
+        width: 60%;
+        padding: 15px;
+        font-size: 15px;
+        border: 1px solid gainsboro;
+        &:focus {
+          outline: none;
+        }
+      }
+      button {
+        padding: 16px 20px;
+        background-color: #74a84a;
+        border: 1px solid #74a84a;
+        .fa-magnifying-glass {
+          font-size: 15px;
+          color: white;
+        }
+        &:hover {
+          cursor: pointer;
+          background-color: #2c541d;
+        }
+      }
+      }
+     
+      .filter {
+        margin: 50px 0;
+        h3 {
+          font-size: 20px;
+        }
+      }
+      .categories {
+        h3 {
+          font-size: 20px;
+          margin: 20px 0;
+          color: #74a84a;
+        }
+        a {
+          p {
+            line-height: 30px;
+            margin-left: 20px;
+            color: #74a84a;
+            span {
+              color: black;
+            }
+          }
+        }
+      }
+    }
+    .sec2 {
+      width: 60%;
+      height: 135vh;
+      padding-left: 50px;
+
+      p {
+        color: rgb(113, 113, 113);
+        cursor: pointer;
+      }
+      h1 {
+        color: #74a84a;
+        font-size: 60px;
+        font-weight: 400;
+        margin: 40px 0 70px 0;
+      }
+      span {
+        color: rgb(113, 113, 113);
+        margin-top: 10px;
+      }
+      .row {
+        display: flex;
+        justify-content: space-between;
+        select {
+          color: rgb(113, 113, 113);
+          padding: 15px;
+          font-size: 15px;
+          border: none;
+          &:focus {
+            outline: 1px solid gainsboro;
+          }
+        }
+      } .posts {
+      display: grid;
+      grid-template-columns: auto auto auto;
+      gap: 30px;
+      margin-top: 30px;
+      .post {
+        line-height: 30px;
+        cursor: pointer;
+        position: relative;
+        font-family: sans-serif;
+        &:hover {
+          .back {
+            opacity: 1;
+          }
+        }
+        .posters {
+          color: gray;
+        }
+        .v1 {
+          font-weight: bold;
+          cursor: pointer;
+        }
+        .price {
+          color: rgb(87, 87, 87);
+          font-weight: bold;
+        }
+        .back {
+          transition: all 500ms;
+          background-color: rgb(231, 231, 231);
+          border-radius: 50%;
+          width: 40px;
+          height: 40px;
+          position: absolute;
+          opacity: 0;
+          top: 10px;
+          left: 190px; //kicik ekranda
+          .fa-bag-shopping {
+            color: #74a84a;
+            font-size: 20px;
+            padding: 10px;
+          }
+        }
+      }
+    }
+    }
+   
+  }
+}
