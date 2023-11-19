@@ -1,6 +1,6 @@
 @media only screen and (min-width: 350px) and (max-width: 1100px) {
   .shop {
-    height: 180vh;
+    height: auto;
     .container {
       margin: 0;
       width: 100%;
@@ -8,7 +8,7 @@
       flex-direction: column-reverse;
 
       .sec1 {
-        height: 50vh;
+        height: auto;
         border: none;
         padding-left: 50px;
         form {
@@ -16,16 +16,14 @@
 
           input {
             width: 100%;
-            
           }
-          
         }
       }
       .sec2 {
         margin: 50px 0 0 50px;
         width: 90%;
         padding-left: 0;
-        height: 130vh;
+        height: auto;
         .posts {
           margin: 0;
           .back {
@@ -66,9 +64,9 @@
   }
 }
 
-@media only screen and (min-width: 350px) and (max-width: 800px){
+@media only screen and (min-width: 350px) and (max-width: 800px) {
   .shop {
-    height: 235vh;
+    height: auto;
     .container {
       margin: 0;
       width: 100%;
@@ -76,7 +74,7 @@
       flex-direction: column-reverse;
 
       .sec1 {
-        height: 30vh;
+        height: auto;
         border: none;
         padding-left: 50px;
         form {
@@ -84,16 +82,14 @@
 
           input {
             width: 100%;
-            
           }
-          
         }
       }
       .sec2 {
         margin: 50px 0 0 50px;
         width: 90%;
         padding-left: 0;
-        height: 175vh;
+        height: auto;
         .posts {
           margin-top: 30px;
           display: grid;
@@ -106,11 +102,11 @@
       }
     }
   }
-} 
+}
 
-@media only screen and (min-width: 350px) and (max-width: 650px){
+@media only screen and (min-width: 350px) and (max-width: 650px) {
   .shop {
-    height:550vh;
+    height: auto;
     .container {
       margin: 0;
       width: 100%;
@@ -118,25 +114,24 @@
       flex-direction: column-reverse;
 
       .sec1 {
-        height: 30vh;
+        height: auto;
         border: none;
         form {
           display: flex;
           input {
             width: 100%;
           }
-          
         }
       }
       .sec2 {
         margin: 50px 0 0 60px;
         width: 80%;
         padding-left: 0;
-        height: 490vh;
+        height: auto;
         .posts {
           margin: 30px 0;
           display: grid;
-          grid-template-columns: auto ;
+          grid-template-columns: auto;
           gap: 30px;
           .back {
             display: none;
@@ -145,5 +140,5 @@
       }
     }
   }
-} 
+}
 
